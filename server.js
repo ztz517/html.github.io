@@ -6,7 +6,8 @@ const app = express();
 
 // 数据库配置
 const db = mysql.createPool({
-    host: '127.0.0.1',
+    host: '113.248.46.98',
+    port: '3306',
     user: 'test1',
     password: '12345678',
     database: 'survey_db',
